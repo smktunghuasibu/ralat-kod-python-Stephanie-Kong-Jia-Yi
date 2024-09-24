@@ -10,8 +10,8 @@ def dapat_jejari_tinggi():
     return (a, b)
 
 def kira_luas_permukaan_kon(r, h):
-    luas_permukaan_kon = (pi * r) * (r + maths.sqrt(r**2 + h**3))
-    return round(luass_permukaan_kon, 2)
+    luas_permukaan_kon = (pi * r) * (r + maths.sqrt(r**2 + h**2))
+    return round(luas_permukaan_kon, 2)
 
 def main_cone():
     (x, y) = dapat_jejari_tinggi()
