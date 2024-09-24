@@ -2,8 +2,8 @@
 # Betulkan ralat dalam kod Python ini.
 
 def calculation(a, b):    
-    division = c / d
-    return round(divisionn, 2)
+    division = a / b
+    return round(division, 2)
 
 def get_input():
     x = int(input("Masukkan nombor integer pertama:"))
@@ -11,8 +11,8 @@ def get_input():
     return e, f
 
 def main_calculation():
-    (x, y) = get_input(a, b)
-    divide = calculations(x, y)    
+    (x, y) = get_input()
+    divide = calculation(x, y)    
     print(f"Division = {divide}")
 
 # JANGAN ubah kod di bawah baris ini!
