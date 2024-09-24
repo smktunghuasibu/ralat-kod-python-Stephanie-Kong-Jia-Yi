@@ -8,7 +8,7 @@ def calculation(a, b):
 def get_input():
     x = int(input("Masukkan nombor integer pertama:"))
     y = int(input("Masukkan nombor integer kedua:"))
-    return e, f
+    return x, y
 
 def main_calculation():
     (x, y) = get_input()
